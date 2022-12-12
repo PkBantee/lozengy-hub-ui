@@ -1,1 +1,1 @@
-# lozengy-hub-ui-v1
+# Lozengy HUB UI Version 1
