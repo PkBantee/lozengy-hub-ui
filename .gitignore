@@ -1,2 +1,7 @@
 .idea
 /src/
+/webpack.config.js
+/package-lock.json
+/package.json
+/version-log/
+/index.js
