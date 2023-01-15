@@ -1,8 +1,11 @@
 .idea
+/node_modules/
+/version-log/
 /src/
 /webpack.config.js
 /package-lock.json
+/postcss.config.js
 /package.json
-/version-log/
 /index.js
-/node_modules/
+
+
