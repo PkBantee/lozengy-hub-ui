@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Lozengy HUB UI Version 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/lozengy-hub-ui.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
 
@@ -14,12 +15,13 @@
         }
 
         .lzg-ct-xpd-container {
-            width: 100vw;
-            height: 100vh;
             display: flex;
             align-content: center;
             justify-content: center;
             align-items: center;
+        }
+        .lzg-ct-xpd-container>div{
+            margin-top: 50px;
         }
 
         .lzg-ct-xpd-title {
@@ -50,11 +52,19 @@
         }
 
         .lzg-ct-xpd-field {
+            text-align: center;
+        }
 
+        .lzg-ct-xpd-title-field {
+            font-size: 22px;
+            font-weight: bold;
         }
 
         .lzg-ct-xpd-road {
-            margin: 5px 20px;
+            margin: 20px;
+        }
+        .lzg-ct-xpd-road-sm {
+            margin: 10px;
         }
     </style>
 </head>
@@ -65,12 +75,86 @@
             Lozengy HUB UI Version 1
         </div>
         <div class="lzg-ct-xpd-desp">
-            Lozengy HUB UI is a theme template like any template, Bootstrap, UI Kit, Material UI, Foundation, etc. It is suitable for a content management system (CMS). Also, I want to share the template with anyone who wants to use or develop it further. Actually, it has been used for the Tarifflix web application.
+            Lozengy HUB UI is a theme template like any template, Bootstrap, UI Kit, Material UI, Foundation, etc. It is
+            suitable for a content management system (CMS). Also, I want to share the template with anyone who wants to
+            use or develop it further. Actually, it has been used for the Tarifflix web application.
         </div>
         <div class="lzg-ct-xpd-creator">
             Pongsakorn Bantee
         </div>
-
+        <div class="lzg-ct-xpd-line lzg-ct-xpd-road"></div>
+        <div class="lzg-ct-xpd-field">
+            <div class="lzg-ct-xpd-title-field">Button</div>
+            <div class="lzg-ct-xpd-road">
+                <div>
+                    Big Size
+                </div>
+                <div>
+                    <div class="lzg-ct-xpd-road-sm">
+                        <button class="xlzg-btn-bg xlzg-c-white xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-black xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-blue xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-green xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-yellow xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-red xlzg-rmx">Button</button>
+                    </div>
+                    <div class="lzg-ct-xpd-road-sm">
+                        <button class="xlzg-btn-bg xlzg-c-white">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-black">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-blue">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-green">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-yellow">Button</button>
+                        <button class="xlzg-btn-bg xlzg-c-red">Button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lzg-ct-xpd-road">
+                <div>
+                    Normal Size
+                </div>
+                <div>
+                    <div class="lzg-ct-xpd-road-sm">
+                        <button class="xlzg-btn xlzg-c-white xlzg-rmx">Button</button>
+                        <button class="xlzg-btn xlzg-c-black xlzg-rmx">Button</button>
+                        <button class="xlzg-btn xlzg-c-blue xlzg-rmx">Button</button>
+                        <button class="xlzg-btn xlzg-c-green xlzg-rmx">Button</button>
+                        <button class="xlzg-btn xlzg-c-yellow xlzg-rmx">Button</button>
+                        <button class="xlzg-btn xlzg-c-red xlzg-rmx">Button</button>
+                    </div>
+                    <div class="lzg-ct-xpd-road-sm">
+                        <button class="xlzg-btn xlzg-c-white">Button</button>
+                        <button class="xlzg-btn xlzg-c-black">Button</button>
+                        <button class="xlzg-btn xlzg-c-blue">Button</button>
+                        <button class="xlzg-btn xlzg-c-green">Button</button>
+                        <button class="xlzg-btn xlzg-c-yellow">Button</button>
+                        <button class="xlzg-btn xlzg-c-red">Button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lzg-ct-xpd-road">
+                <div>
+                    Small Size
+                </div>
+                <div>
+                    <div class="lzg-ct-xpd-road-sm">
+                        <button class="xlzg-btn-sm xlzg-c-white xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-black xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-blue xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-green xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-yellow xlzg-rmx">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-red xlzg-rmx">Button</button>
+                    </div>
+                    <div class="lzg-ct-xpd-road-sm">
+                        <button class="xlzg-btn-sm xlzg-c-white">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-black">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-blue">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-green">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-yellow">Button</button>
+                        <button class="xlzg-btn-sm xlzg-c-red">Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

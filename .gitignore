@@ -1,6 +1,5 @@
 .idea
 /node_modules/
-/version-log/
 /src/
 /webpack.config.js
 /package-lock.json
